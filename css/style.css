@@ -1,5 +1,5 @@
 body {
-    width: 180px;
+    width: 250px;
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -7,10 +7,11 @@ body {
 
 .tool-bar {
     display: block;
-    width: 180px;
+    width: 250px;
     height: 60px;
     line-height: 30px;
     background-color: #315131;
+    border-radius: 10px;
 }
 
 .tool-bar ul {
@@ -36,9 +37,10 @@ button {
 }
 
 .tool-bar ul li button, label {
-    padding: 0 4px;
+    padding: 0 7px;
     text-decoration: none;
-    color: #FFF;
+    color: #FFA;
+    font-size: 18px;
 }
 
 .tool-bar ul li button:hover {
@@ -46,10 +48,10 @@ button {
 }
 
 input {
-    width: 30px;
-    padding: 6px 0 4px 10px;
+    width: 40px;
+    padding: 6px 0 4px 6px;
     border: 1px solid #aeaeae;
     background: #242424;
-    border-radius: 4px;
-    color: antiquewhite;
+    border-radius: 7px;
+    color:antiquewhite;
 }
